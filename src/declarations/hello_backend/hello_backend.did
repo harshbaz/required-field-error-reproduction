@@ -1,0 +1,4 @@
+type User = record {name: text;};
+service : {
+  greet: (text) -> (User) query;
+}
